@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /onboarding
+Disallow: /review
+Disallow: /result
+
+Sitemap: https://jobready.meetempo.com/sitemap.xml
