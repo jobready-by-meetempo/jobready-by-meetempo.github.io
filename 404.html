@@ -150,9 +150,16 @@
       }
     }
     </script>
-  <script type="module" crossorigin src="/assets/index-Bv47_1RP.js"></script>
+  <script type="module" crossorigin src="/assets/index-D6pSSclK.js"></script>
 </head>
 <body class="antialiased flex flex-col min-h-screen">
-    <div id="root"></div>
+    <div id="root">
+      <div id="initial-loader" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;background:#FAFAFA;font-family:Inter,sans-serif;">
+        <img src="/images/logo-icon.png" alt="JobReady" style="width:60px;height:60px;margin-bottom:20px;" />
+        <div style="width:40px;height:40px;border:4px solid #E5E7EB;border-top:4px solid #2563EB;border-radius:50%;animation:jr-spin 1s linear infinite;"></div>
+        <p style="margin-top:20px;color:#1F2937;font-size:16px;font-weight:500;">Chargement...</p>
+      </div>
+    </div>
+    <style>@keyframes jr-spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style>
 </body>
 </html>
